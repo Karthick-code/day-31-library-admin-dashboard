@@ -1,0 +1,193 @@
+/* src/styles.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #1976d2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.MuiPaper-root {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.MuiTable-root {
+  background-color: #ffffff;
+}
+
+.MuiTableCell-head {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.MuiTableCell-body {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.MuiButton-root {
+  border-radius: 20px;
+  padding: 8px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-root:hover {
+  background-color: #1565c0;
+  color: #ffffff;
+}
+
+
+/* src/styles.css */
+
+.dashboard-card {
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-card:hover {
+  background-color: #bbdefb;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-link {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #1976d2;
+}
+
+.dashboard-link:hover {
+  color: #0d47a1;
+}
+
+/* src/styles.css */
+
+.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.MuiFormControl-root {
+  margin-bottom: 20px;
+}
+
+.MuiButton-root {
+  width: 100%;
+  background-color: #1976d2;
+  color: #ffffff;
+}
+
+.MuiButton-root:hover {
+  background-color: #1565c0;
+}
+
+.MuiFormHelperText-root {
+  color: #d32f2f;
+  font-size: 0.85rem;
+}
+
+/* src/styles.css */
+
+.MuiTable-root {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.MuiTableCell-head {
+  font-weight: bold;
+  background-color: #e3f2fd;
+  color: #0d47a1;
+}
+
+.MuiTableCell-body {
+  font-size: 0.9rem;
+  color: #555;
+  padding: 12px 16px;
+}
+
+.MuiTableCell-body:hover {
+  background-color: #f0f0f0;
+}
+
+.MuiButton-outlined {
+  color: #1976d2;
+  border-color: #1976d2;
+}
+
+.MuiButton-outlined:hover {
+  background-color: #e3f2fd;
+  border-color: #1565c0;
+  color: #0d47a1;
+}/* src/styles.css */
+
+.MuiButton-root {
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-transform: none;
+  font-weight: bold;
+}
+
+.MuiButton-root.MuiButton-outlined {
+  border: 2px solid #1976d2;
+}
+
+.MuiButton-root.MuiButton-outlined:hover {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #1976d2;
+  color: white;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #1565c0;
+}
+
+/* src/styles.css */
+
+.dashboard-card, .MuiButton-root {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-card:hover, .MuiButton-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.MuiTableCell-body:hover {
+  background-color: #f4f4f4;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f6f8;
+  padding: 20px;
+  text-align: center;
+}
